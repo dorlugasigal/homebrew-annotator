@@ -1,6 +1,6 @@
 # Annotator for Homebrew
 
-This is the Homebrew tap for [Annotator](https://annotator-desktop.netlify.app/),
+This is the Homebrew tap for [Annotator](https://getannotator.app/),
 a free Mac app for drawing on your screen as you explain: circles, arrows,
 highlights, spotlight, zoom and blur over any app.
 
