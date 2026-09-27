@@ -11,7 +11,7 @@ brew install --cask dorlugasigal/annotator/annotator
 ```
 
 Homebrew adds this tap the first time you run it. Annotator needs macOS 14 or
-later and an Apple M-series chip. It runs from the menu bar, not the Dock.
+later, on an Apple Silicon or Intel Mac. It runs from the menu bar, not the Dock.
 
 ## Update
 
