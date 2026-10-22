@@ -1,7 +1,7 @@
 # Annotator for Homebrew
 
-This is the Homebrew tap for [Annotator](https://getannotator.app/),
-a free Mac app for drawing on your screen as you explain: circles, arrows,
+This is the Homebrew tap for [Annotator](https://getannotator.app/), a free,
+open-source app for drawing on your screen as you explain: circles, arrows,
 highlights, spotlight, zoom and blur over any app.
 
 ## Install
@@ -33,6 +33,6 @@ Your boards and settings stay on your Mac.
 ## About this tap
 
 Each release writes `Casks/annotator.rb` from the signed and notarized download
-on [GitHub releases](https://github.com/dorlugasigal/annotator/releases). This
-repository doesn't take pull requests. To report a problem or ask a question,
-go to [dorlugasigal/annotator](https://github.com/dorlugasigal/annotator/issues/new/choose).
+on [GitHub releases](https://github.com/dorlugasigal/annotator/releases), so
+this repository doesn't take pull requests. The app's source, issues and
+contributions are in [dorlugasigal/annotator](https://github.com/dorlugasigal/annotator).
