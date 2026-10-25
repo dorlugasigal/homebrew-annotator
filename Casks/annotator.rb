@@ -6,6 +6,7 @@ cask "annotator" do
   name "Annotator"
   desc "Native live desktop annotation"
   homepage "https://getannotator.app"
+  auto_updates true
 
   depends_on macos: :sonoma
 
