@@ -1,8 +1,8 @@
 cask "annotator" do
-  version "0.1.0-beta.17,35"
-  sha256 "2df88a5fc9ad31e3c8091ee5966227bfb2e655bdef7628f8880372f897c41be6"
+  version "0.2.0"
+  sha256 "1f298e49a91a2e18c684093b20e8101bdb9f5efcab02618c1a28dddba8ff133f"
 
-  url "https://github.com/dorlugasigal/annotator/releases/download/v0.1.0-beta.17/annotator-0.1.0-beta.17-35-universal.zip"
+  url "https://github.com/dorlugasigal/annotator/releases/download/v0.2.0/annotator-0.2.0-universal.zip"
   name "Annotator"
   desc "Native live desktop annotation"
   homepage "https://getannotator.app"
@@ -10,11 +10,9 @@ cask "annotator" do
 
   depends_on macos: :sonoma
 
-  conflicts_with cask: "annotator-preview"
-
   app "Annotator.app"
 
   uninstall quit: "com.dorlugasigal.annotator"
 
-  caveats "Testing prerelease. Read the release notes and known limits. Save drawings and quit Annotator before upgrading. User boards and preferences are not removed on uninstall."
+  caveats "Save drawings and quit Annotator before upgrading. User boards and preferences are not removed on uninstall."
 end
